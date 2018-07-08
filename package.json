@@ -1,0 +1,12 @@
+{
+    "name": "TrapNZMQTT",
+    "description": "Take MQTT messages from MySensors and post them to Trap.nz",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_manager.json",
+            "credentialsFile": "flows_manager_cred.json"
+        }
+    }
+}
